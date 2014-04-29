@@ -1,0 +1,52 @@
+@media (min-width: 768px) {
+	#menuMovil {
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+
+	#menuMovil {
+		display: block;
+	}
+	
+	.wrapper {
+		width: 100%;
+	}
+
+	.container {
+		width: 100%;
+	}
+
+	ul.redesSociales-lista {
+		width: 150px;
+	}
+
+	.valoracionN h4 {
+		font-size: 30px;
+	}
+
+	.itemListado {
+		width: 100%;
+	}
+
+	.col-xs-8.contenidoDerecha {
+		width: 100%;
+		margin-left: -7px;
+		margin-top: 5px;
+	}
+
+	.tituloPublicacion {
+		font-size: 22px;
+		line-height: 25px;
+	}
+
+	.itemModulo-titulo {
+		font-size: 15px;
+	}
+
+	.hidden-phone {
+		display: none;
+	}
+
+}
