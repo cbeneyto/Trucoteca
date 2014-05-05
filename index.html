@@ -35,8 +35,8 @@
 							<div class="buscadorInput radius">
 								<input type="text" placeholder="Buscador trucoteca...">
 							</div>
-							<div id="searchicon" style="margin-top:-30px; padding-right:10px;">
-								<span class="glyphicon glyphicon-search pull-right" style="color:#e5991e;"></span>
+							<div id="searchicon">
+								<input type="image" src="./assets/img/input-search.png">
 							</div>
 						</div>
 
@@ -57,13 +57,13 @@
 
 <div id="sidr2">
 
-  <div class="row" style="padding-left:10px; padding-top:15px; margin-top:15px;">
+  <div class="row" id="sidebar-right">
 		    <div class="col-xs-3" align="center">
 			    <img class="img-circle" src="http://placehold.it/60x60"></a>
 		    </div>
 		    <div class="col-xs-9">
-			    <p><b style="color: #e5991e; font-size:16px;">Trucoteca</b></p>
-			    <p style="margin-top:-10px;">lvl. 75</p>
+			    <p><b class="orange16">Trucoteca</b></p>
+			    <p class="sidebar-lvl">lvl. 75</p>
 		    </div>
 	    </div>
   
@@ -77,12 +77,12 @@
   </ul>
 </div>
 	
-	<div id="mobile-header" class="visible-xs" style="position:fixed; z-index:9999; background:#333; margin-top:-20px; padding-top:20px;">
+	<div id="mobile-header" class="visible-xs mobile-header-css">
 			
 			<div class="row-fluid header-phone">
-				<div class="col-xs-1" style="padding-top:10px;"><a id="simple-menu" href="#sidr"><i class="glyphicon glyphicon-align-justify" style="font-size:20px; color:#fff"></i></a></div>
-				<div class="col-xs-10" align="center"><a href=""><img src="./assets/img/logo-trucoteca-slogan.png" style="margin-top:-10px;"></a></div>
-				<div class="col-xs-1" style="padding-top:10px; padding-right:15px;"><a id="simple-menu2" href="#sidr2"><i class="glyphicon glyphicon-user" style="font-size:20px; color:#fff"></i></a></div>
+				<div class="col-xs-1" style="padding-top:10px;"><a id="simple-menu" href="#sidr"><i class="glyphicon glyphicon-align-justify white18R" style=""></i></a></div>
+				<div class="col-xs-10" align="center"><a href=""><img src="./assets/img/logo-trucoteca-slogan.png" class="img-logo-trucoteca"></a></div>
+				<div class="col-xs-1" style="padding-top:10px; padding-right:15px;"><a id="simple-menu2" href="#sidr2"><i class="glyphicon glyphicon-user white18L"></i></a></div>
 			</div>
 			
 			</div>
@@ -111,7 +111,9 @@
 						<div class="buscador">
 							<div class="buscadorInput radius">
 								<input type="text" placeholder="Buscar juegos, trucos, análisis...">
-								<span class="glyphicon glyphicon-search"></span>
+								<div id="searchicon">
+									<input type="image" src="./assets/img/input-search.png">
+								</div>
 							</div>
 						</div>	
 					</div>
@@ -119,13 +121,13 @@
 						<div id="user-info">
 							<div class="row">
 								<div class="col-xs-4 color-user-info" align="left">
-									<p style="margin-top:5px;"><a href="" style="font-size:12px; font-weight:100">Panel de control</a></p>
-									<p style="margin-top:-10px;"><a href="" style="font-size:12px; font-weight:100">Cerrar sesión</a></p>
+									<p style="margin-top:5px;"><a href="" class="weight10012">Panel de control</a></p>
+									<p style="margin-top:-10px;"><a href="" class="weight10012">Cerrar sesión</a></p>
 								</div>
 								<div class="col-xs-5 color-user-info" align="right">
 									
 									<div class="btn-group">
-									  <a href="" data-toggle="dropdown" style="font-size:12px;"><span class="badge badge-primary" style="font-size:11px; background:#7dc004">42</span> Trucoteca <i class="caret"></i></a>
+									  <a href="" data-toggle="dropdown" style="font-size:12px;"><span class="badge badge-primary badge-orange">42</span> Trucoteca <i class="caret"></i></a>
 									  <ul class="dropdown-menu" role="menu">
 									    <li><a href="#">Mi Panel</a></li>
 									    <li><a href="#">Mensajes</a></li>
@@ -135,7 +137,7 @@
 									  </ul>
 									</div>
 									</p>
-									<p style="margin-top:-5px; margin-bottom:-5px;">
+									
 									<ul class="list-inline">
 										<li><i class="glyphicon glyphicon-envelope"></i> 2 </li>
 										<li><i class="glyphicon glyphicon-user"></i> 2 </li>
