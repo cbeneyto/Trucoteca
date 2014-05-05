@@ -1,0 +1,550 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"t",
+				"type	Attr"
+			],
+			[
+				"imp",
+				"important"
+			],
+			[
+				"ch",
+				"check"
+			],
+			[
+				"i",
+				"id	Attr"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"Date",
+				"date"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 90773,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "@font-face {\n	font-family: 'BebasNeueRegular';\n	src: url('../fonts/bebas/bebasneue-webfont.eot');\n	src: url('../fonts/bebas/bebasneue-webfont.eot?#iefix') format('eot'),\n		 url('../fonts/bebas/bebasneue-webfont.woff') format('woff'),\n		 url('../fonts/bebas/bebasneue-webfont.ttf') format('truetype'),\n		 url('../fonts/bebas/bebasneue-webfont.svg#webfontX0YNjQNl') format('svg');\n	font-weight: normal;\n	font-style: normal;\n}\n\nbody {\n	font-family: Arial;\n	background: rgb(49,49,49);\n	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzMxMzEzMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMTAxMDEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);\n	background: -moz-linear-gradient(top,  rgba(49,49,49,1) 0%, rgba(1,1,1,1) 100%);\n	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(49,49,49,1)), color-stop(100%,rgba(1,1,1,1)));\n	background: -webkit-linear-gradient(top,  rgba(49,49,49,1) 0%,rgba(1,1,1,1) 100%);\n	background: -o-linear-gradient(top,  rgba(49,49,49,1) 0%,rgba(1,1,1,1) 100%);\n	background: -ms-linear-gradient(top,  rgba(49,49,49,1) 0%,rgba(1,1,1,1) 100%);\n	background: linear-gradient(to bottom,  rgba(49,49,49,1) 0%,rgba(1,1,1,1) 100%);\n	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#313131', endColorstr='#010101',GradientType=0 );\n	padding-top: 20px;\n}\n\n.wrapper {\n	background: #242424;\n	padding: 20px 10px;\n	width: 1024px;\n	float: none;\n	margin: 0 auto;\n	margin-top:-20px;\n}\n\n.wrapper > .container {\n	margin: 0 auto;\n}\n\n/*++++++++++++++++++++++++++++++++++\n\n	GENERALES\n\n++++++++++++++++++++++++++++++++++*/\n\n.points-space {\nwhite-space: nowrap!important;\noverflow: hidden!important;\ntext-overflow: ellipsis!important;\nword-break: break-all!important;\n}\n\n.negrita {\n	font-weight: bold;\n}\n\n.radius {\n	border-radius: 0.5rem;	\n}\n\na {\n	color: #232323;\n}\n\na:hover {\n	text-decoration: none;\n}\n\n.label-plataform{padding-left:22px !important; padding-right:22px !important;}\n.margin-top20 { margin-top: 20px; }\n.padding-top20 {padding-top:20px;}\n.logo-mobile{ position: fixed;\nz-index: 999;\ntop: 5px; }\n.margin-top-5{margin-top:5px;}\n\n#searchicon{margin-top:-30px; padding-right:10px; width: 25px;float: right;}\n\n#searchicon span{ color:#e5991e; }\n\n#sidebar-right{ padding-left:10px; padding-top:15px; margin-top:15px; }\n\n.mobile-header-css{position:fixed; z-index:9999; background:#333; margin-top:-20px; padding-top:20px; width: 100%;}\n\n.orange16{color: #e5991e; font-size:16px;}\n.white18R{font-size:18px; color:#fff; margin-right:-25px;}\n.white18L{font-size:18px; color:#fff; margin-left:-25px;}\n\n.img-logo-trucoteca{margin-top:-10px !important; width: 75%; padding-bottom:10px;}\n\n.badge-orange{font-size:11px; background:#7dc004}\n.weight10012{font-size:12px !important; font-weight:100 !important;}\n\n.sidebar-lvl{margin-top:-10px;}\n\n#sub-menu-plataform{margin-left:-15px; margin-right:-15px; padding:5px; font-size:14px; font-weight:bold; margin-bottom:-5px; color:#fff !important;}\n.submenu-plataform{ color: #fff !important;}\n\n#publi-lateral-big{margin-bottom:20px;}\n\n\n.label-plataform-active{padding-bottom:15px !important;}\n\n.label-slider-active{font-size:16px; padding:7px 11px !important; background: #ec9a1f; color: #444}\n.label-slider{font-size:16px; padding:7px 11px !important; background: #6e6e6e}\n\n.film {\ndisplay: block;\nbackground: transparent url(http://f2.trucoteca.com/v2/bg/videofilm.png) no-repeat 0 0;\nwidth: 95px;\nheight: 58px;\ntext-align: center;\npadding: 2px 0 0 0;\nfloat: left;\nmargin-right: 10px;\n}\n\n/*++++++++++++++++++++++++++++++++++\n\n	MENÚS\n\n++++++++++++++++++++++++++++++++++*/\n\n/* Lista 'Menú superior' */\n\n.menuSuperior{margin-bottom:-5px;}\n\nul.menuSuperio-lista {\n	margin: 0;\n	list-style: none;\n	display: inline-block;\n	padding: 0;\n	padding-top: 10px;\n	margin-top:-15px;\n}\n\nul.menuSuperio-lista li {\n	float: left;\n	margin-right: 3px;\n	font-size: 12px;\n	font-weight: normal;\n}\n\nul.menuSuperio-lista li a {\n	color: #808080;\n}\n\nul.menuSuperio-lista li:after {\n	content: ' | ';\n	margin-right: 10px;\n	margin-left: 10px;\n}\n\nul.menuSuperio-lista li:last-of-type {\n	margin-right: 0;\n}\n\nul.menuSuperio-lista li:last-of-type:after {\n	content: '';\n}\n\n/* Lista 'Redes Sociales' */\n\n.redesSociales-menu {\n	text-align: right;\n}\n\nul.redesSociales-lista {\n	margin: 0;\n	list-style: none;\n	display: inline-block;\n	padding: 0;\n	margin-top:-10px;\n}\n\nul.redesSociales-lista li {\n	float: left;\n	margin-right: 5px;\n	color: #808080;\n	font-size: 12px;\n	font-weight: normal;\n}\n\nul.redesSociales-lista li:last-of-type {\n	margin-right: 0;\n}\n\n/* Menú grande */\n\n.col-xs-12.menuGrande {\n	padding: 0;\n	margin-bottom: 0;\n	height: 55px;\n}\n\n.menuGrande > .navbar {\n	border-radius: 4px 4px 0 0;\n}\n\n.navbarGrande {\n	background: rgb(254,254,254);\n	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZlZmVmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk5JSIgc3RvcC1jb2xvcj0iI2UyZTJlMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);\n	background: -moz-linear-gradient(top,  rgba(254,254,254,1) 0%, rgba(226,226,226,1) 99%);\n	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(254,254,254,1)), color-stop(99%,rgba(226,226,226,1)));\n	background: -webkit-linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(226,226,226,1) 99%);\n	background: -o-linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(226,226,226,1) 99%);\n	background: -ms-linear-gradient(top,  rgba(254,254,254,1) 0%,rgba(226,226,226,1) 99%);\n	background: linear-gradient(to bottom,  rgba(254,254,254,1) 0%,rgba(226,226,226,1) 99%);\n	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#e2e2e2',GradientType=0 );\n\n}\n\nul.menuGrande-lista li {\n	width: 125px;\n	text-align: center;\n	margin-bottom: -1px;\n}\n\nul.menuGrande-lista li:after {\n	content: '';\n	background-image: url('../img/separador-menu.png');\n	background-repeat: no-repeat;\n	height: 50px;\n	width: 2px;\n	position: absolute;\n	top: 0px;\n	right: 0;\n}\n\nul.menuGrande-lista li:last-of-type:after {\n	content: '';\n	background-image: none;\n}\n\nul.menuGrande-lista li a {\n	font-family: 'BebasNeueRegular';\n	font-size: 25px;\n	font-weight: 100;\n	letter-spacing: 1px;\n	color: #3c3c3c;\n}\n\nul.menuGrande-lista li.active a {\n	color: #b00000;\n	background: #fff;\n}\n\nul.menuGrande-lista li:nth-child(1) a {\n	border-bottom: 4px solid #B8000D;\n}\n\nul.menuGrande-lista li:nth-child(2) a {\n	border-bottom: 4px solid #E2262C;\n}\n\nul.menuGrande-lista li:nth-child(3) a {\n	border-bottom: 4px solid #FF5331;\n}\n\nul.menuGrande-lista li:nth-child(4) a {\n	border-bottom: 4px solid #F99F2B;\n}\n\nul.menuGrande-lista li:nth-child(5) a {\n	border-bottom: 4px solid #9DAB2B;\n}\n\nul.menuGrande-lista li:nth-child(6) a {\n	border-bottom: 4px solid #687F1D;\n}\n\nul.menuGrande-lista li:nth-child(7) a {\n	border-bottom: 4px solid #006414;\n}\n\nul.menuGrande-lista li:nth-child(8) a {\n	border-bottom: 4px solid #dcab23;\n}\n\n/* Menú de etiquetas */\n\n.menuEtiquetas {\n	padding: 5px 5px 2px;\n	background: rgb(75,75,75);\n	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRiNGI0YiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzMTMxMzEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);\n	background: -moz-linear-gradient(top,  rgba(75,75,75,1) 0%, rgba(49,49,49,1) 100%);\n	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(75,75,75,1)), color-stop(100%,rgba(49,49,49,1)));\n	background: -webkit-linear-gradient(top,  rgba(75,75,75,1) 0%,rgba(49,49,49,1) 100%);\n	background: -o-linear-gradient(top,  rgba(75,75,75,1) 0%,rgba(49,49,49,1) 100%);\n	background: -ms-linear-gradient(top,  rgba(75,75,75,1) 0%,rgba(49,49,49,1) 100%);\n	background: linear-gradient(to bottom,  rgba(75,75,75,1) 0%,rgba(49,49,49,1) 100%);\n	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4b4b', endColorstr='#313131',GradientType=0 );\n}\n\nul.menuEtiquetas-lista {\n	margin: 0;\n	list-style: none;\n	display: inline-block;\n	padding: 0;\n	margin-left:10px;\n}\n\nul.menuEtiquetas-lista li {\n	float: left;\n	margin-right: 10px;\n	font-size: 16px;\n	font-weight: normal;\n}\n\nul.menuEtiquetas-lista li:last-of-type {\n	margin-right: 0;\n}\n\nul.menuEtiquetas-lista li span > a {\n	color: #FFF;\n	font-weight: bold;\n}\n\n.label {\n	padding: 0.3em .6em .3em;\n}\n\n.label-pc {\n	background-color: #B8086B;\n}\n\n.label-mac {\n	background-color: #0b91b9;\n}\n\n.label-xbox {\n	background-color: #0A9524;\n}\n\n.label-xone {\n	background-color: #006414;\n}\n\n.label-vita {\n	background-color: #0095A5;\n}\n\n.label-ps4 {\n	background-color: #0069C1;\n}\n\n.label-ps3 {\n	background-color: #000000;\n}\n\n.label-3ds {\n	background-color: #CB0A17;\n}\n\n.label-wiiu {\n	background-color: #AA7C21;\n}\n\n.label-ios {\n	background-color: #A5272D;\n}\n\n.label-android {\n	background-color: #56B82E;\n}\n\n.label-otras {\n	background-color: #5F5F5F;\n}\n\n/* Lista 'Menu Footer' */\n\n.menuFooter {\n	padding: 5px 5px 2px;\n	background: rgb(75,75,75);\n	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRiNGI0YiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzMTMxMzEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);\n	background: -moz-linear-gradient(top,  rgba(75,75,75,1) 0%, rgba(49,49,49,1) 100%);\n	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(75,75,75,1)), color-stop(100%,rgba(49,49,49,1)));\n	background: -webkit-linear-gradient(top,  rgba(75,75,75,1) 0%,rgba(49,49,49,1) 100%);\n	background: -o-linear-gradient(top,  rgba(75,75,75,1) 0%,rgba(49,49,49,1) 100%);\n	background: -ms-linear-gradient(top,  rgba(75,75,75,1) 0%,rgba(49,49,49,1) 100%);\n	background: linear-gradient(to bottom,  rgba(75,75,75,1) 0%,rgba(49,49,49,1) 100%);\n	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b4b4b', endColorstr='#313131',GradientType=0 );\n}\n\n.menuFooter-rss {\n	padding: 5px 5px 2px;\n	background: #222;\n	\n}\n\nul.menuFooter-lista {\n	margin: 0;\n	list-style: none;\n	display: inline-block;\n	padding: 0 0 0 20px;\n}\n\nul.menuFooter-lista li {\n	float: left;\n	color: #808080;\n	font-size: 12px;\n	font-weight: normal;\n}\n\nul.menuFooter-lista li a {\n	color: #d6d6d6;\n}\n\nul.menuFooter-lista li:after {\n	content: ' | ';\n	margin-left: 10px;\n	margin-right: 10px;\n}\n\nul.menuFooter-lista li:last-of-type:after {\n	content: '';\n	margin: 0;\n}\n\n /*menu plataform */\n ul.menuFooter-listaplataform {\n	margin: 0;\n	list-style: none;\n	display: inline-block;\n	padding: 0 0 0 20px;\n}\n\nul.menuFooter-lista-plataform li {\n	float: left;\n	color: #fff;\n	font-size: 12px;\n	font-weight: normal;\n}\n\nul.menuFooter-lista-plataform li a {\n	color: #fff;\n}\n\nul.menuFooter-lista-plataform li:after {\n	content: ' | ';\n	margin-left: 10px;\n	margin-right: 10px;\n}\n\nul.menuFooter-lista-plataform li:last-of-type:after {\n	content: '';\n	margin: 0;\n}\n\nul.menuFooter-lista-rss {\n	margin: 0;\n	list-style: none;\n	display: inline-block;\n	padding: 0 0 0 20px;\n}\n\n.rss-margin{margin-left: 4px; font-size:13px;}\n\nul.menuFooter-lista-rss li {\n	float: left;\n	color: #808080;\n	font-size: 12px;\n	font-weight: normal;\n}\n\nul.menuFooter-lista-rss li a {\n	color: #d6d6d6;\n}\n\nul.menuFooter-lista-rss li:after {\n	content: ' | ';\n	margin-left: 10px;\n	margin-right: 10px;\n}\n\nul.menuFooter-lista-rss li:last-of-type:after {\n	content: '';\n	margin: 0;\n}\n\n.footer {\n	padding: 10px 20px;\n	margin: 0 -15px 0 -15px;\n	background: rgb(90,90,90);\n	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzVhNWE1YSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0MjQyNDIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);\n	background: -moz-linear-gradient(top,  rgba(90,90,90,1) 0%, rgba(66,66,66,1) 100%);\n	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(90,90,90,1)), color-stop(100%,rgba(66,66,66,1)));\n	background: -webkit-linear-gradient(top,  rgba(90,90,90,1) 0%,rgba(66,66,66,1) 100%);\n	background: -o-linear-gradient(top,  rgba(90,90,90,1) 0%,rgba(66,66,66,1) 100%);\n	background: -ms-linear-gradient(top,  rgba(90,90,90,1) 0%,rgba(66,66,66,1) 100%);\n	background: linear-gradient(to bottom,  rgba(90,90,90,1) 0%,rgba(66,66,66,1) 100%);\n	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a5a5a', endColorstr='#424242',GradientType=0 );\n}\n\n.copyright {\n	color: #b4b4b4;\n	font-size: 12px;\n	padding-top: 10px;\n	padding-bottom: 10px;\n}\n\n.goTop {\n	background-image: url('../img/go-top.png');\n	background-repeat: no-repeat;\n	background-size: 30px 59px;\n	height: 59px;\n	width: 30px;\n	position: absolute;\n	bottom: -48px;\n	right: 200px;\n	display: block;\n}\n\n/*++++++++++++++++++++++++++++++++++\n\n	HEADER\n\n++++++++++++++++++++++++++++++++++*/\n\n.header {\n	border-bottom: 1px solid #202020;\n	padding-bottom: 20px;\n	margin-bottom: 20px;\n	padding-top: 10px;\n}\n\n.slider {\n	padding: 20px 0;\n	position: relative;\n}\n\n.slider .imagenSlider {\n	z-index: 1;\n}\n\n.slider .teaserSlider {\n	padding: 10px 20px;\n	background-color: rgb(0,0,0);\n	background-color: rgba(0,0,0,0.7);\n	width: 590px;\n	height: 115px;\n	position: absolute;\n	bottom: 0;\n	border-bottom-left-radius: 0.5rem; \n}\n\n.slider .teaserSlider h3 {\n	font-family: 'BebasNeueRegular';\n	color: #FFF;\n	font-size: 35px;\n	line-height: 100%;\n	margin: 0;\n	padding-bottom: 10px;\n}\n\n.slider .teaserSlider p {\n	color: #FFF;\n	font-size: 11px;\n	line-height: 100%;\n}\n\n.slider .itemsSlider ul {\n	margin: 0;\n	padding: 0;\n	list-style: none;\n	background-color: #353535;\n}\n\n.slider .itemsSlider li {\n\n}\n\n.color-user-info{color:#ececec; marign-right:-15px; }\n.color-user-info a{color:#d59d0f; text-decoration: none; font-size:16px; font-weight: bold;}\n\n.user-info-padding{padding-left:30px;}\n#user-info{\n	\n	background: #343232;\n	padding:5px;\n	-webkit-border-bottom-right-radius: 10px;\n	-webkit-border-bottom-left-radius: 10px;\n	-moz-border-radius-bottomright: 10px;\n	-moz-border-radius-bottomleft: 10px;\n	border-bottom-right-radius: 10px;\n	border-bottom-left-radius: 10px;\n	margin-top:-30px;\n	padding-bottom:5px;\n	padding-top:15px;\n	padding-left:5px;\n	\n}\n\n.itemSlider {\n	z-index: 2;\n	height: 110px;\n	background: rgb(79,79,79);\n	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRmNGY0ZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzNTM1MzUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);\n	background: -moz-linear-gradient(top,  rgba(79,79,79,1) 0%, rgba(53,53,53,1) 100%);\n	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(79,79,79,1)), color-stop(100%,rgba(53,53,53,1)));\n	background: -webkit-linear-gradient(top,  rgba(79,79,79,1) 0%,rgba(53,53,53,1) 100%);\n	background: -o-linear-gradient(top,  rgba(79,79,79,1) 0%,rgba(53,53,53,1) 100%);\n	background: -ms-linear-gradient(top,  rgba(79,79,79,1) 0%,rgba(53,53,53,1) 100%);\n	background: linear-gradient(to bottom,  rgba(79,79,79,1) 0%,rgba(53,53,53,1) 100%);\n	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f4f4f', endColorstr='#353535',GradientType=0 );\n	padding: 10px 20px;\n}\n\nli.active .itemSlider {\n	background: rgb(236,163,59); /* Old browsers */\n	/* IE9 SVG, needs conditional override of 'filter' to 'none' */\n	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VjYTMzYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkMTg5MjciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);\n	background: -moz-linear-gradient(top,  rgba(236,163,59,1) 0%, rgba(209,137,39,1) 100%); /* FF3.6+ */\n	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(236,163,59,1)), color-stop(100%,rgba(209,137,39,1))); /* Chrome,Safari4+ */\n	background: -webkit-linear-gradient(top,  rgba(236,163,59,1) 0%,rgba(209,137,39,1) 100%); /* Chrome10+,Safari5.1+ */\n	background: -o-linear-gradient(top,  rgba(236,163,59,1) 0%,rgba(209,137,39,1) 100%); /* Opera 11.10+ */\n	background: -ms-linear-gradient(top,  rgba(236,163,59,1) 0%,rgba(209,137,39,1) 100%); /* IE10+ */\n	background: linear-gradient(to bottom,  rgba(236,163,59,1) 0%,rgba(209,137,39,1) 100%); /* W3C */\n	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eca33b', endColorstr='#d18927',GradientType=0 ); /* IE6-8 */\n	position: relative;\n}\n\nli.active .itemSlider:after {\n	content: \"\";\n	display: block;\n	position: absolute;\n	left: -9px;\n	top: 40%;\n	width: 9px;\n	height: 9px;\n	border-top: 10px solid transparent;\n	border-bottom: 10px solid transparent; \n	border-right:10px solid #DF9731;\n	z-index: 10;\n	-webkit-transition: opacity 0.15s linear;\n	transition: opacity 0.15s linear;\n}\n\nli .itemSlider .btn {\n	background-color: #313131;\n	background-image: -moz-linear-gradient(top, #313131, #151515);\n	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#313131), to(#151515));\n	background-image: -webkit-linear-gradient(top, #313131, #151515);\n	background-image: -o-linear-gradient(top, #313131, #151515);\n	background-image: linear-gradient(to bottom, #313131, #151515);\n	border: 0;\n		-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);\n		-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);\n	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);\n	color: #B4B4B4;\n}\n\nli.active .itemSlider .btn {\n	background-color: #DC7E2E;\n	background-image: -moz-linear-gradient(top, #DC7E2E, #BC621B);\n	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#DC7E2E), to(#BC621B));\n	background-image: -webkit-linear-gradient(top, #DC7E2E, #BC621B);\n	background-image: -o-linear-gradient(top, #DC7E2E, #BC621B);\n	background-image: linear-gradient(to bottom, #DC7E2E, #BC621B);\n	border: 0;\n		-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);\n		-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);\n	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);\n	color: #FFFFFF;\n}\n\n.imagen-itemSlider {\n\n}\n\n.etiquetaSlider {\n	margin: 0;\n	color: #D6D6D6;\n	font-size: 13px;\n	line-height: 100%;\n}\n\n.tituloSlider {\n	margin: 0;\n	font-family: 'BebasNeueRegular';\n	color: #FFF;\n	font-size: 26px;\n	line-height: 100%;\n}\n\n.buscadorInput {\n	background-color: #000;\n	border: 1px solid #535353;\n	margin-top: 0;\n	margin-left:10px;\n}\n\n.buscadorInput > input {\n	background-color: transparent;\n	border: 0;\n	width: 270px;\n	padding: 10px 10px;\n}\n\n.buscadorInput > span.glyphicon {\n	color: #df960e;\n}\n\n.buscadorInput > input[placeholder] {\n	color: #FFFFFF;\n}\n\n.buscadorInput input[type=text]:focus {\n	outline: 0;\n}\n\n\n/*++++++++++++++++++++++++++++++++++\n\n	CONTENIDO\n\n++++++++++++++++++++++++++++++++++*/\n\n.row.contenido {\n	background-color: #F7F7F7;\n	position: relative;\n}\n\n/*+++++++++++++++++++++++++\n	Listado\n++++++++++++++++++++++++++*/\n\n.listaPrincipal {\n	background-color: #E6E6E6;\n	border-radius: 0.5rem;\n	position: relative;\n	padding: 10px 20px;\n	margin-bottom: 20px;\n}\n\n.itemListado {\n	background-color: #FFFFFF;\n	border-radius: 0.5rem;\n	padding: 7px 5px 5px;\n	width: 600px;\n	margin: 0 auto;\n	margin-bottom: 5px;\n}\n\n.col-xs-4.imagenIzquierda {\n	margin-left: -10px;\n}\n\n.col-xs-8.contenidoDerecha {\n	margin-left: 50px;\n	width: 345px;\n}\n\n/* Fecha publicación */\n\n.fechaPublicacion {\n	position: absolute;\n	right: 0;\n}\n\n.fechaPublicacion p {\n	font-size: 11px;\n}\n\n.list-top-trucos-footer{margin-bottom:-0px;}\n.list-top-trucos-footer li{ margin-bottom: 5px; }\n.high-trucos-link{color:#ececec; font-size:12px; font-weight: bold;}\n\n.h4-trucos-content{ color:#D59D0E; margin-top:25px; }\n.active-trucoteca a{ background: #e6b026 !important; border: 1px solid #e6b026 !important;}\n\n#paginator-news-trucoteca{margin-top:-0px; margin-bottom:-20px;}\n\n.bg-sub-slider{padding:10px; background-image: url('../img/bg-sub-slider.png'); }\n\n#padding-sub-sliders{ padding:10px; position: relative; top:-140px; margin-bottom: -130px;}\n\n#publi-before-forums{margin-top:25px;}\n\n#slider{margin-bottom:20px;}\n\n.h2-slider {\n	font-family: 'BebasNeueRegular';\n	font-size: 30px;\n	font-weight: 100;\n	letter-spacing: 1px;\n	margin: 0;\n	color: #ECECEC;\n	line-height: 24px; \n	margin-bottom: 0px;\n	margin-top:5px;\n\n}\n\nul.slider-sub {\n	margin: 0;\n	list-style: none;\n	display: inline-block;\n	padding: 0;\n}\n\nul.slider-sub li {\n	float: left;\n	margin-right: 10px;\n	color: #808080;\n	font-size: 12px;\n	width: 180px;\n	border-left: 1px solid #888;\n	padding-left:15px;\n}\n\n.active-slider h2 { color: #e5991e !important; }\n\n.numMensajesForo{font-size:17px; color:#d3a118; margin-top:-35px; padding-right:10px; }\n.numMensajesForo2{font-size:17px; color:#d3a118;}\n\n.icon-play-video-margin{margin-top:-40px;}\n.icon-play-video-margin:hover{margin-top:-40px; opacity: 0.5;}\n\n/* Etiqueta publicaciones */\n\nul.etiquetasPublicacion {\n	margin: 0;\n	list-style: none;\n	display: inline-block;\n	padding: 0;\n}\n\nul.etiquetasPublicacion li {\n	float: left;\n	margin-right: 3px;\n	color: #808080;\n	font-size: 12px;\n	font-weight: bold;\n}\n\nul.etiquetasPublicacion li:after {\n	content: ' - ';\n}\n\nul.etiquetasPublicacion li:last-of-type {\n	margin-right: 0;\n}\n\nul.etiquetasPublicacion li:last-of-type:after {\n	content: '';\n}\n\n/* Título publicación */\n\n.tituloPublicacion {\n	font-family: 'BebasNeueRegular';\n	font-size: 30px;\n	font-weight: 100;\n	letter-spacing: 1px;\n	margin: 0;\n	color: #3F3F3F;\n	line-height: 29px; \n	margin-bottom: 10px;\n	margin-top:5px;\n}\n\n .pequeña {\n\n	font-size: 24px;\n	font-weight: 100;\n	letter-spacing: 1px;\n	line-height: 24px; \n}\n\n.tituloPublicacion:hover {\n	text-decoration: none;\n}\n\n.botonesPublicacion{margin-top:20px;}\n\n/* Datos publicación */\n\n.datosPublicacion {\n	font-size: 11px;\n	margin-bottom: 5px;\n}\n\n/* Texto publicación */\n\n.textoPublicacion {\n	font-size: 13px;\n	color: #797979;\n	margin-bottom: 15px;\n	line-height:17px;\n}\n\n/* Acciones publicación */\n\nul.botones {\n	margin: 0;\n	list-style: none;\n	display: inline-block;\n	padding: 0;\n}\n\nul.botones li {\n	float: left;\n	margin-right: 3px;\n}\n\nul.botones li:last-of-type {\n	margin-right: 0;\n}\n\nul.botones li a > span.glyphicon {\n	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);\n}\n\n/* Botón gris */\n\n.btn-gris {\n	background-color: #006dcc;\n	background-image: -moz-linear-gradient(top, #EAEAEA, #CDCDCD);\n	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EAEAEA), to(#CDCDCD));\n	background-image: -webkit-linear-gradient(top, #EAEAEA, #CDCDCD);\n	background-image: -o-linear-gradient(top, #EAEAEA, #CDCDCD);\n	background-image: linear-gradient(to bottom, #EAEAEA, #CDCDCD);\n	border: 0;\n		-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);\n		-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);\n	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);\n	color: #808080;\n}\n\n/*+++++++++++++++++++++++++\n	Lateral\n++++++++++++++++++++++++++*/\n\n/* Módulo 'Últimos trucos' */\n\n.viewMoreModulo{margin-top: -15px; margin-bottom:-15px; }\n.viewMoreModuloLink{font-size:13px; font-weight:bold; color:#d4aa13 !important; }\n\n.moduloLateral {\n	background-color: #4B4B4B;\n	border-radius: 0.5rem;\n	position: relative;\n	padding: 10px 20px;\n	margin-bottom: 10px;\n}\n\n.itemModulo {\n	background-color: #FFFFFF;\n	border-radius: 0.5rem;\n	padding: 5px;\n	margin-bottom: 5px;\n}\n\n.moduloLateral .tituloModulo {\n	margin: 0;\n	font-size: 18px;\n	color: #FFFFFF;\n	margin-bottom: 13px;\n	margin-top:3px;\n}\n\n.itemModulo-titulo {\n	font-family: 'BebasNeueRegular';\n	font-size: 19px;\n	font-weight: 100;\n	color: #4c6711;\n	letter-spacing: 1px;\n	margin: 0;\n	margin-bottom: 10px;\n}\n\n.categoriaEtiqueta {\n	margin-top:-5px; margin-top:-8px;\n}\n\n.categoriaEtiqueta ul {\n	margin: 0;\n	padding: 0;\n	list-style: none;\n	display: inline-block;\n}\n\n.categoriaEtiqueta li {\n	float: left;\n	margin-right:4px;\n}\n\n.itemModulo p {\n	margin: 0;\n	margin-bottom: 0;\n	font-size: 12px;\n	color: #181818;\n}\n\n.itemModulo p.fechaActualizado {\n	font-style: italic;\n	font-weight: 300;\n	color: #6b6b6b;\n}\n\n.imagenLateral {\n	padding-left: 0;\n}\n\n.moduloLateral .valoracion {\n	float: right;\n	display: inline-block;\n}\n\n.textoValoracion h4 {\n	margin: 0;\n	color: #00C12E;\n	line-height: 100%;\n}\n\n.hr-trucos{ border-top: 1px solid #c4c4c4; }\n\n.panel-menu-game{ padding-left:10px; padding-top:7px; padding-bottom:7px; padding-right:5px;}\n\n.valoracionUser .glyphicon-star{ color:#666 !important; }\n.valoracionUser .glyphicon-star:hover{ color: #f6c12f !important; }\n\n.rating {\n    float:left;\n}\n\n/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t \n   follow these rules. Every browser that supports :checked also supports :not(), so\n   it doesn’t make the test unnecessarily selective */\n.rating:not(:checked) > input {\n    position:absolute;\n    top:-9999px;\n    clip:rect(0,0,0,0);\n}\n\n.rating:not(:checked) > label {\n    float:right;\n    width:1em;\n    padding:0 .1em;\n    overflow:hidden;\n    white-space:nowrap;\n    cursor:pointer;\n    font-size:16px;\n    line-height:1.2;\n    color:#ddd;\n}\n\n.rating:not(:checked) > label:before {\n    content: '★ ';\n}\n\n.rating > input:checked ~ label {\n    color: #f70;\n}\n\n.rating:not(:checked) > label:hover,\n.rating:not(:checked) > label:hover ~ label {\n    color: #366ff4;\n}\n\n.rating > input:checked + label:hover,\n.rating > input:checked + label:hover ~ label,\n.rating > input:checked ~ label:hover,\n.rating > input:checked ~ label:hover ~ label,\n.rating > label:hover ~ input:checked ~ label {\n    color: #ea0;\n    \n}\n\n.rating > label:active {\n    position:relative;\n    top:2px;\n    left:2px;\n}\n\n.estrellasValoracion ul {\n	margin: 0;\n	padding: 0;\n	list-style: none;\n	display: inline-block;\n}\n\n.estrellasValoracion li {\n	float: left;\n}\n\n.estrellasValoracion .glyphicon-star {\n	color: #FFCF4B;\n	text-shadow: 0.5px 0.5px #FF983F;\n}\n\n.estrellasValoracion .glyphicon-star-empty {\n	color: #808080;\n}\n\n.valoracionC {\n	float: left;\n}\n\n.valoracionN {\n	float: right;\n}\n\n.valoracionN h4 {\n	margin: 0;\n	font-size: 45px;\n	padding-left: 10px;\n	line-height: 100%;\n	color: #4e4e4e;\n	font-weight: 500;\n	letter-spacing: -3px;\n	margin-top: -5px;\n}\n\n.panelLateral {\n	background-color: #242424;\n	margin: 0 0 10px;\n	padding: 5px;\n}\n\n.panelLateral-inner {\n	background-color: #1D1D1D;\n	border: 1px solid #474747;\n	padding: 10px 20px;\n}\n\n.fondo-tituloPanel {\n	background-image: url('../img/fondoPanel.png');\n	background-repeat: repeat-x;\n	width: 292px;\n	margin: -10px 0 10px -20px;\n	height: 42px;\n	border-bottom: 1px solid #474747;\n}\n\n.tituloPanel {\n	color: #FFF33F;\n	margin: 0;\n	margin-left: 10px;\n	padding-top: 10px;\n	font-size: 20px;\n}\n\n.pestaNa {\n	margin: 0 -5px 0 -5px;\n	\n}\n\n.capitulos{ font-size: 12px; color:#999;}\n\n\n.nav-tabs-trucoteca>li.active>a, .nav-tabs-trucoteca>li.active>a:hover, .nav-tabs-trucoteca>li.active>a:focus {\ncolor: #555;\nbackground-color: #fff;\nborder: 1px solid #ddd;\nborder-bottom-color: transparent;\ncursor: default;\nfont-weight: bold;\n}\n.nav-tabs-trucoteca>li>a {\nmargin-right: 2px;\nline-height: 1.42857143;\nborder: 1px solid transparent;\nborder-radius: 4px 4px 0 0;\nmargin-left:10px;\nborder-color: #eee #eee #ddd;\nbackground-color: #eee;\n}\n\n.nav-tabs-trucoteca-top>li.active>a, .nav-tabs-trucoteca-top>li.active>a:hover, .nav-tabs-trucoteca-top>li.active>a:focus {\ncolor: #333;\nbackground-color: #E6E6E6;\nborder: 1px solid #ddd;\nborder-bottom-color: transparent;\ncursor: default;\nfont-size: 14px;\nfont-weight: bold;\n}\n.nav-tabs-trucoteca-top>li>a {\nmargin-right: -5px;\nline-height: 1.42857143;\nborder: 1px solid transparent;\nborder-radius: 4px 4px 0 0;\nmargin-left:10px;\nborder-color: #eee #eee #ddd;\nbackground-color: #c5c5c5;\ncolor: #333;\nfont-size: 14px;\n}\n\n\n\nul.item-tabContent {\n	list-style: none;\n	margin: 10px 5px 0 5px;\n	padding: 0;\n	color: #CECEC8;\n	font-size: 13px;\n}\n\nul.item-tabContent li {\n	margin-top: 10px;\n	border-bottom: 1px dashed #363636;\n	\n}\n\nul.item-tabContent li:last-of-type {\n	margin-top: 10px;\n	border-bottom: none;\n}\n\n.tituloItem-panelLateral {\n	margin: 0;\n	font-size: 18px;\n	margin-bottom: 5px;\n	font-family: 'BebasNeueRegular';\n	font-weight: 100;\n	letter-spacing: 1px;\n	color: #3c3c3c;\n}\n\n.list-tab-p{font-size: 12px; color:#999;}\n\n.websAmigas {\n	background-color: #E6E6E6;\n	border-radius: 0.5rem;\n	position: relative;\n	padding: 10px 20px;\n	margin-bottom: 20px;\n}\n\n.websAmigas-inner {\n	background-color: #FFFFFF;\n	border-radius: 0.5rem;\n	padding-left: 10px;\n	margin-bottom: 5px;\n	height: 45px;\n	padding-top: 13px;\n}\n\n.titulo-websAmigas {\n\n}\n\n.titulo-websAmigas h4 {\n	float: left;\n	margin: 0;\n	color: #454545;\n}\n\n.lista-websAmigas {\n\n}\n\n#search-footer{padding-bottom: 15px;}\n.search-footer-input{ background: #666; color:#ececec; border: 1px solid #333; padding:10px; font-size:13px; height: 38px; }\n\n.lista-websAmigas ul {\n	margin: 0;\n	padding: 0;\n	list-style: none;\n	display: inline-block;\n	padding-left: 20px;\n}\n\n.lista-websAmigas li {\n	float: left;\n}\n\n.lista-websAmigas li:after {\n	content: \" | \";\n	color: #626262;\n	margin-right: 5px;\n}\n\n.lista-websAmigas li:last-of-type:after {\n	content: \"\";\n	margin: 0;\n}\n\n.lista-websAmigas li a {\n	color: #626262;\n}\n\n.textoFooter {\n	line-height: 115%;\n	color: #e39521;\n	font-size: 22px;\n	padding-top:15px;\n}\n\n.enlacesFooter {\n	\n	margin-top:20px;\n}\n\n.enlacesFooter ul {\n	margin: 0;\n	padding: 0;\n	list-style: none;\n	float: right;\n}\n\n.enlacesFooter li {\n	text-align: right\n}\n\n.enlacesFooter li a {\n	color: #e4e0e0;\n	font-size: 13px;\n	line-height: 24px;\n	font-weight: 500;\n}\n\n#copyright{ margin-top:15px; background:#444; padding: 7px; color:#999; text-align: center; font-size:12px;}\n#creator-cb{ margin-top:20px; color:#999; font-size:12px; margin-bottom: 30px;}\n#creator-cb a{ margin-top:10px; color:#ececec; font-size:12px; font-weight: 400;}\n\n.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus { color: #fff;background-color: #D49B20;}\n\n.panel-active{ background: #fff9d3 !important; }",
+			"file": "assets/css/trucoteca.css",
+			"file_size": 32894,
+			"file_write_time": 130437808950000000,
+			"settings":
+			{
+				"buffer_size": 32871,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Emmet",
+				"Toggle Comment"
+			],
+			[
+				"Save",
+				"File: Save All"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 275.0,
+		"history":
+		[
+			"`''`'`'`'`'`",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/README.md",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/default/layout/regalo/model.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/default/layout/regalo/script.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/default/layout/regalo/view.tpl",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/BetRocket.sublime-project",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/robots.txt",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/regalos/script.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/plugins/pl-table/datatables/media/unit_testing/tests_onhold/6_delayed_rendering/aoColumns.sWidth.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/regalos/model.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/regalos/menu/view.tpl",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/default/layout/regalos/script.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/widgets/regalo/script.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/default/layout/widgets/regalo/script.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/perfil/regalos/script.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/regalo/script.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/driver/driver_regalos.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/driver/driver_regalo.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/js/register.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/static/script.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/static/model.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/admin/static/view.tpl",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/admin/static/script.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/admin/static/model.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/plugins/pl-table/datatables/media/src/api/api.static.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/language/es/defw.static.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/upload/demo/statsbalance.json",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/js/support_ticket.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/scripts/server.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/demo/torneos/view.tpl",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/demo/torneo/view.tpl",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/demo/clasificacion/view.tpl",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/front/plugins/rs-plugin/videojs/demo.captions.vtt",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/js/demo.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/plugins/pl-table/datatables/media/unit_testing/tests_onhold/1_dom/_getDataFunctions.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/plugins/pl-table/datatables/media/unit_testing/templates/empty_table.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/default/skeleton/model.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/default/email/register/modal.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/default/layout/event/model.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/default/layout/estadisticas/model.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/default/layout/empresa/model.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/plugins/pl-table/datatables/media/unit_testing/templates/deferred_table.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/language/es/defw.template.register.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/front/plugins/superscrollorama/js/greensock/TimelineMax.min.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/core/library/plugins/jbbcode/TextNode.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/nossl/tokenads.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/driver/driver_rocketcoins.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/plugins/jquery-ricksaw-chart/js/Rickshaw.Class.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/plugins/jquery-ricksaw-chart/js/Rickshaw.Color.Palette.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/language/es/defw.modals.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/plugins/pl-table/datatables/media/unit_testing/tests_onhold/1_dom/oLanguage.sInfoEmpty.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/plugins/pl-table/datatables/media/unit_testing/tests_onhold/1_dom/oLanguage.sLengthMenu.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/core/app/language.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/plugins/bootstrap-select2/select2_locale_ar.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/core/config-local/config.app.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/rocketcoins/simple-menu/view.tpl",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/plugins/pl-table/datatables/media/unit_testing/tests_onhold/1_dom/oLanguage.sProcessing.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/plugins/pl-table/datatables/media/unit_testing/tests_onhold/1_dom/oLanguage.sUrl.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/scripts/passgen.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/index.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/access/logout/model.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/access/login/view.tpl",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/access/login/model.php",
+		"/Users/carlosbeneyto/Library/Application Support/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/perfil/publica/view.tpl",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/perfil/publica/model.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/driver/driver_perfil.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/perfil/view.tpl",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/core/library/plugins/mozilla/persona.class.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/rocketcoins/menu/view.tpl",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/rocketcoins/view.tpl",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/core/app/driver.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/driver/driver_search.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/plugins/pl-table/datatables/media/unit_testing/tests_onhold/1_dom/sDom.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/plugins/pl-table/datatables/media/unit_testing/templates/dom_data_two_headers.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/plugins/pl-table/datatables/media/unit_testing/templates/dom_data.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/plugins/pl-table/datatables/media/unit_testing/tests_onhold/1_dom/aoColumns.iDataSort.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/plugins/pl-table/datatables/media/unit_testing/tests_onhold/6_delayed_rendering/asStripClasses.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/plugins/pl-table/datatables/media/unit_testing/tests_onhold/6_delayed_rendering/aoColumns.iDataSort.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/rocketcoins/comprar/model.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/default/layout/perfil/model.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/default/layout/perfil/view.tpl",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/perfil/model.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/plugins/jquery-ricksaw-chart/js/Rickshaw.Fixtures.Time.Local.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/language/es/defw.perfil.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/rocketcoins/ssa/script.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/rocketcoins/script.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/access/admin/model.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/driver/driver_access.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/access/register/social/login.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/core/library/system/upload/bets/access/social/login.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/default/layout/access/social/login.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/plugins/pl-table/datatables/media/unit_testing/tests_onhold/1_dom/aoColumns.sClass.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/public/beta/plugins/pl-table/datatables/media/unit_testing/tests_onhold/1_dom/aoColumns.bSearchable.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/scripts/afiliatecode.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/.gitignore",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/blog/wp-admin/install.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/OLD/view OLD/beta_old/layout/apuestas_OKEY/torneo/model.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/OLD/view OLD/beta_old/layout/apuestas/torneo2/model.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/beta/layout/apuestas/view.tpl",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/driver/driver_apuestas.php",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/OLD/view OLD/beta_old/layout/estadisticas/apuestas/script.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/OLD/view OLD/beta_old/layout/apuestas_OKEY/index/script copy.js",
+		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/blog/wp-admin/admin-post.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"has.been",
+			"input",
+			"email",
+			"date",
+			"Date",
+			"form",
+			"login"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 90773,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3633,
+								3633
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1196.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/css/trucoteca.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 32871,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2267,
+								2267
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 637.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "trucoteca.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"regalosscr",
+				"view/template/beta/layout/regalos/script.js"
+			],
+			[
+				"regaloscript",
+				"view/template/beta/layout/regalo/script.js"
+			],
+			[
+				"regalo",
+				"view/template/beta/layout/regalo/view.tpl"
+			],
+			[
+				"rocketcoinsmenu",
+				"view/template/beta/layout/rocketcoins/menu/view.tpl"
+			],
+			[
+				"regalosview.",
+				"view/template/beta/layout/regalos/view.tpl"
+			],
+			[
+				"static",
+				"view/template/beta/static/view.tpl"
+			],
+			[
+				"betademoview",
+				"view/template/beta/layout/demo/torneos/view.tpl"
+			],
+			[
+				"rocketcoinsmodel",
+				"view/template/beta/layout/rocketcoins/model.php"
+			],
+			[
+				"languagemodals",
+				"language/es/defw.modals.php"
+			],
+			[
+				"languageperfil",
+				"language/es/defw.perfil.php"
+			],
+			[
+				"perfilpublicaview",
+				"view/template/beta/layout/perfil/publica/view.tpl"
+			],
+			[
+				"perfil",
+				"view/template/beta/layout/perfil/view.tpl"
+			],
+			[
+				"betaaccesslogin",
+				"view/template/beta/layout/access/login/model.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Dropbox/htdocs/betrocket/BetRocket.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
