@@ -67,12 +67,15 @@ a:hover {
 
 .label-plataform{padding-left:22px !important; padding-right:22px !important;}
 .margin-top20 { margin-top: 20px; }
+.margin-top10 { margin-top: 10px !important; }
 .padding-top20 {padding-top:20px;}
 .logo-mobile{ position: fixed;
 z-index: 999;
 top: 5px; }
 .margin-top-5{margin-top:5px;}
 .margin-top-10{margin-top:-6px;}
+
+.label-ficha{ padding:11px 25px !important; }
 
 #searchicon{margin-top:-30px; padding-right:10px; width: 25px;float: right;}
 .input-login-trucoteca{font-size:12px; background:#555; border: solid 1px #666; padding:4px; color:#fff; height:28px; margin-top:5px;}
@@ -85,6 +88,8 @@ top: 5px; }
 #sidebar-right{ padding-left:10px; padding-top:15px; margin-top:15px; }
 
 .mobile-header-css{position:fixed; z-index:9999; background:#333; margin-top:-20px; padding-top:20px; width: 100%;}
+
+.color-orange{color:#d59d0f}
 
 .orange16{color: #e5991e; font-size:16px;}
 .white18R{font-size:18px; color:#fff; margin-right:-25px;}
