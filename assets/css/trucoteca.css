@@ -113,6 +113,11 @@ top: 5px; }
 .label-slider-active{font-size:16px; padding:7px 11px !important; background: #ec9a1f; color: #444}
 .label-slider{font-size:16px; padding:7px 11px !important; background: #6e6e6e}
 
+.link-result{font-weight:bold; font-size:12px;}
+
+.disabled-result{ background:#ececec;}
+.disabled-result a{background: #ececec; color:#666; font-weight:300;}
+
 .film {
 display: block;
 background: transparent url(http://f2.trucoteca.com/v2/bg/videofilm.png) no-repeat 0 0;
