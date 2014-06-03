@@ -36,8 +36,8 @@
 								<input type="text" placeholder="Buscador trucoteca...">
 							</div>
 							<div id="searchicon">
-								<input type="image" src="./assets/img/input-search.png">
-							</div>
+									<input type="image" src="./assets/img/input-search.png">
+								</div>
 						</div>
 
 <div class="clearfix"></div>
@@ -57,24 +57,15 @@
 
 <div id="sidr2">
 
-  <div class="row" id="sidebar-right">
-		    <div class="col-xs-3" align="center">
-			    <img class="img-circle" src="http://placehold.it/60x60"></a>
-		    </div>
-		    <div class="col-xs-9">
-			    <p><b class="orange16">Trucoteca</b></p>
-			    <p class="sidebar-lvl">lvl. 75</p>
-		    </div>
-	    </div>
-  
-  <ul style="margin-top:15px;">
-    <li class="active"><a href="#">Panel de control</a></li>
-    <li><a href="#">Editar perfil</a></li>
-    <li><a href="#">Mensajes</a> </li>
-    <li><a href="#">Mi Red</a></li>
-    <li><a href="#">Configuración</a></li>
-    <li><a href="#">Cerrar sesión</a></li>
-  </ul>
+	<div style="padding:10px; margin-top:20px;">
+	<p style="font-size:16px;">Únete a <b>Trucoteca</b></p>
+	<p style="color:#999;">Usa Facebook o Twitter para registrarte. También puedes usar un email para registrarte. ¡Es gratis!</p>
+
+	<a href="" data-toggle="modal" data-target="#login-modal" class="btn btn-large btn-block btn-login close-sidr">Acceder</a>
+	<a href="" class="btn btn-large btn-block btn-danger btn-register">Registro</a>
+	<a href="" class="btn btn-large btn-block btn-info btn-register" style="background:#4176E5; border-color:#4176E5;">Facebook</a>
+	</div>
+
 </div>
 	
 	<div id="mobile-header" class="visible-xs mobile-header-css">
@@ -120,21 +111,25 @@
 					<div class="col-xs-5 user-info-padding hidden-phone" align="center">
 						<div id="user-info">
 							<div class="row">
-								<form>
-								<div class="col-md-6 margin-top-10">
-									<input type="email" class="input-login-trucoteca form-control" id="exampleInputEmail2" placeholder="Usuario...">
-									<input type="password" class="input-login-trucoteca form-control" id="exampleInputEmail2" placeholder="Contraseña">
-								</div>
-								<div class="col-md-6">
-									
-										<a href="" class="btn btn-small btn-block btn-success btn-login">Acceder</a>
-										
-										<div class="btn-group" style="margin-top:5px;">
-											<a href="" class="btn btn-small btn-danger btn-register">Registro</a>
-											<a href="" class="btn btn-small btn-info btn-register" style="background:#4176E5; border-color:#4176E5;">Facebook</a>
-										</div>
-								</div>	
-								</form>
+
+							<div class="col-md-12">
+								
+								<p style="color:#999;">¡Únete a <b>Trucoteca</b>!</p>
+
+
+							</div>
+
+							<div class="col-md-4">
+								<a href="" data-toggle="modal" data-target="#login-modal" class="btn btn-small btn-block btn-success">Acceder</a>
+							</div>
+							<div class="col-md-4">
+								<a href="" data-toggle="modal" data-target="#login-modal" class="btn btn-small btn-block btn-danger">Registro</a>
+							</div>
+							<div class="col-md-4">
+								<a href="" data-toggle="modal" data-target="#login-modal" class="btn btn-small btn-block btn-success" style="background:#4176E5; border-color:#4176E5;">Facebook</a>
+							</div>
+							
+								
 								<div class="clearfix"></div>
 								
 							</div>
@@ -2419,6 +2414,79 @@ Trucoteca juegos y trucos by Desarrolos Almaden is licensed under a Creative Com
 			</div>
 		</div>
 
+
+
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+      <div class="visible-xs" style="margin-top:60px;"></div>
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Acceder a Trucoteca</h4>
+      </div>
+      <div class="modal-body" style="background:#ececec">
+        <div class="row login-container column-seperation">
+        <div class="col-md-7">
+          <p style="margin-bottom:10px;"><b>Usa Facebook o Twitter para registrarte.</b><br>
+            También puedes usar un <a href="">email para registrarte</a>. ¡Es gratis!</p>
+
+          <div id="login-button-social" align="center" class="row-fluid">
+            <a id="imgFacebook2" href="#" class="btn btn-large btn-block btn-info" style="opacity: 1; background:#363791; padding:12px;">
+              <i class="fontello-icon-facebook"></i> Acceder con <b>Facebook</b>
+            </a>
+          </div>
+
+          <div id="login-button-social" align="center" class="row-fluid margin-top10" style="margin-top:10px;">
+            <a id="imgTwitter2" href="#" class="btn btn-large btn-block btn-success" style="opacity: 1; background:#558bdd; padding:12px;">
+              <i class="fontello-icon-twitter"></i> Acceder con <b>Twitter</b>
+            </a>     
+        </div>
+        </div>
+
+        <div class="col-md-5">
+		  <form method="POST" id="login-form" class="login-form" action="">
+		  
+		 <div class="row">
+		 <div class="form-group col-md-12">
+            <label class="form-label">Usuario</label>
+            <div class="controls">
+				<div class="input-with-icon  right">
+					<i class=""></i>
+					<input style="margin-top:-5px;" name="email" placeholder="nombre@email.com" id="email" class="form-control">
+				</div>
+            </div>
+          </div>
+          </div>
+		  <div class="row">
+          <div class="form-group col-md-12">
+            <label class="form-label">Contraseña</label>
+            <span class="help"></span>
+            <div class="controls">
+				<div class="input-with-icon  right">
+					<i class=""></i>
+					<input style="margin-top:-5px;" type="password" name="pass" placeholder="Escribe tu contraseña..." id="pass" class="form-control">
+				</div>
+            </div>
+          </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+
+            <p style="font-size:12px; margin-bottom:20px;"><a href="">¿Has olvidado tus datos?</a></p>
+              <button class="btn btn-default btn-cons pull-right" type="submit">Conectarme</button>
+            </div>
+          </div>
+		  </form>
+        </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
 		<!-- JS -->
 		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 		<script src="./assets/js/bootstrap.min.js"></script>
@@ -2430,6 +2498,11 @@ Trucoteca juegos y trucos by Desarrolos Almaden is licensed under a Creative Com
 		  $('#simple-menu').sidr();
 		  
 		  $('#simple-menu2').sidr({
+		      name: 'sidr2',
+		      side: 'right'
+		    });
+
+		  $('.close-sidr').sidr({
 		      name: 'sidr2',
 		      side: 'right'
 		    });
