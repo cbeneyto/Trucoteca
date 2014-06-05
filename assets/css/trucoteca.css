@@ -1089,6 +1089,59 @@ ul.botones li a > span.glyphicon {
     left:2px;
 }
 
+.ratingBIG {
+    float:left;
+}
+
+/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t 
+   follow these rules. Every browser that supports :checked also supports :not(), so
+   it doesn’t make the test unnecessarily selective */
+.ratingBIG:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+
+.ratingBIG:not(:checked) > label {
+    float:right;
+    width:1em;
+    padding:0 .1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:24px;
+    line-height:1.2;
+    color:#ddd;
+}
+
+.ratingBIG:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.ratingBIG > input:checked ~ label {
+    color: #f70;
+}
+
+.ratingBIG:not(:checked) > label:hover,
+.ratingBIG:not(:checked) > label:hover ~ label {
+    color: #366ff4;
+}
+
+.ratingBIG > input:checked + label:hover,
+.ratingBIG > input:checked + label:hover ~ label,
+.ratingBIG > input:checked ~ label:hover,
+.ratingBIG > input:checked ~ label:hover ~ label,
+.ratingBIG > label:hover ~ input:checked ~ label {
+    color: #ea0;
+    
+}
+
+.ratingBIG > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+}
+
 .estrellasValoracion ul {
 	margin: 0;
 	padding: 0;
