@@ -338,8 +338,8 @@ ul.menuEtiquetas-lista li span > a {
 	background-color: #B8086B;
 }
 
-.label-mac {
-	background-color: #0b91b9;
+.label-ps2 {
+	background-color: #884520;
 }
 
 .label-xbox {
@@ -350,7 +350,7 @@ ul.menuEtiquetas-lista li span > a {
 	background-color: #006414;
 }
 
-.label-vita {
+.label-vita , .label-psp {
 	background-color: #0095A5;
 }
 
@@ -362,12 +362,12 @@ ul.menuEtiquetas-lista li span > a {
 	background-color: #000000;
 }
 
-.label-3ds {
+.label-3ds, .label-ds {
 	background-color: #CB0A17;
 }
 
-.label-wiiu {
-	background-color: #AA7C21;
+.label-wiiu, .label-wii {
+	background-color: #CECE4C;
 }
 
 .label-ios {
