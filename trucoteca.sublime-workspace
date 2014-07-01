@@ -4,12 +4,16 @@
 		"selected_items":
 		[
 			[
-				"a",
-				"align	Attr"
+				"styl",
+				"style	Attr"
 			],
 			[
-				"s",
+				"sty",
 				"style	Attr"
+			],
+			[
+				"font",
+				"font-family"
 			],
 			[
 				"t",
@@ -52,18 +56,10 @@
 	"buffers":
 	[
 		{
-			"file": "videos.html",
+			"file": "video.html",
 			"settings":
 			{
-				"buffer_size": 92737,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "resultados-videos.html",
-			"settings":
-			{
-				"buffer_size": 30352,
+				"buffer_size": 74635,
 				"line_ending": "Unix"
 			}
 		}
@@ -113,13 +109,15 @@
 	},
 	"file_history":
 	[
-		"/Users/carlosbeneyto/Dropbox/htdocs/trucoteca/resultados.html",
-		"/Users/carlosbeneyto/Dropbox/htdocs/trucoteca/trucoteca.sublime-project",
-		"/Users/carlosbeneyto/Dropbox/htdocs/trucoteca/assets/css/trucoteca.css",
-		"/Users/carlosbeneyto/Dropbox/htdocs/trucoteca/contenido-noticias.html",
+		"/Users/Carlos/Dropbox/htdocs/trucoteca/assets/fonts/glyphicons-halflings-regular.svg",
+		"/Users/Carlos/Dropbox/htdocs/trucoteca/videos.html",
+		"/Users/Carlos/Dropbox/htdocs/trucoteca/contenido-noticias.html",
 		"/Users/Carlos/Dropbox/htdocs/trucoteca/contenido-analisis.html",
-		"/Users/Carlos/Dropbox/htdocs/trucoteca/index.html",
 		"/Users/Carlos/Dropbox/htdocs/trucoteca/index-login.html",
+		"/Users/Carlos/Dropbox/htdocs/trucoteca/resultados.html",
+		"/Users/Carlos/Dropbox/htdocs/trucoteca/listado.php",
+		"/Users/Carlos/Dropbox/htdocs/trucoteca/assets/css/trucoteca.css",
+		"/Users/Carlos/Dropbox/htdocs/trucoteca/index.html",
 		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/README.md",
 		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/default/layout/regalo/model.php",
 		"/Users/carlosbeneyto/Dropbox/htdocs/betrocket/view/template/default/layout/regalo/script.js",
@@ -240,8 +238,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"<i class=\"glyphicon glyphicon-play\" style=\"color:#fff; font-size:30px;\"></i>",
-			"./assets/img/ejemplo/slider.png",
 			"Video",
 			"Facebook",
 			"has.been",
@@ -258,8 +254,6 @@
 		"regex": false,
 		"replace_history":
 		[
-			"<i class=\"glyphicon glyphicon-play\" style=\"color:#fff; font-size:30px; text-shadow: -1px -0px 5px rgba(45, 49, 49, 1);\"></i>",
-			"http://lorempixel.com/400/250/technics/"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -270,24 +264,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "videos.html",
+					"file": "video.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 92737,
+						"buffer_size": 74635,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								16031,
-								15968
+								61699,
+								61699
 							]
 						],
 						"settings":
@@ -295,14 +289,10 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -311,116 +301,44 @@
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close"
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 7176.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "resultados-videos.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 30352,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								23078,
-								23078
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
-								"bh_unmatched_close"
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close"
 							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"incomplete_sync": null,
-							"open_with_edit": true,
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 9483.0,
+						"translation.y": 21262.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -435,7 +353,7 @@
 	},
 	"input":
 	{
-		"height": 33.0
+		"height": 30.0
 	},
 	"layout":
 	{
@@ -471,7 +389,7 @@
 	"project": "trucoteca.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":
