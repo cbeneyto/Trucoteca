@@ -77,6 +77,8 @@ top: 5px; }
 
 .label-ficha{ padding:11px 25px !important; }
 
+#online-user-status { position:relative; top:-23px; left:-40px; }
+
 #searchicon{margin-top:-30px; padding-right:10px; width: 25px;float: right;}
 .input-login-trucoteca{font-size:12px; background:#555; border: solid 1px #666; padding:4px; color:#fff; height:28px; margin-top:5px;}
 
